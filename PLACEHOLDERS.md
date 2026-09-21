@@ -16,31 +16,33 @@ actually fit at the poster's type sizes. Overrunning a budget clips the box.
 | `V2` | 1 System Overview | Inset table | 4 rows @ **5 w** | PEAS: Performance, Environment, Actuators, Sensors |
 | `V3` | 2 Ethical Analysis | Stat callout | number + **12 w** | One headline figure and a one-line caption |
 | `E1` | 2 Ethical Analysis | Card text | **16 w** | Bias and Accuracy |
-| `E1-EV` | 2 Ethical Analysis | Evidence line | **7 w** | Source + reference number |
+| `E1-EV` | 2 Ethical Analysis | Evidence line | **5 w** | Source + reference number |
 | `E2` | 2 Ethical Analysis | Card text | **16 w** | Privacy and Surveillance |
-| `E2-EV` | 2 Ethical Analysis | Evidence line | **7 w** | Source + reference number |
+| `E2-EV` | 2 Ethical Analysis | Evidence line | **5 w** | Source + reference number |
 | `E3` | 2 Ethical Analysis | Card text | **16 w** | Accountability and Transparency |
-| `E3-EV` | 2 Ethical Analysis | Evidence line | **7 w** | Source + reference number |
+| `E3-EV` | 2 Ethical Analysis | Evidence line | **5 w** | Source + reference number |
 | `E4` | 2 Ethical Analysis | Card text | **16 w** | Consent and Power Imbalance |
-| `E4-EV` | 2 Ethical Analysis | Evidence line | **7 w** | Source + reference number |
+| `E4-EV` | 2 Ethical Analysis | Evidence line | **5 w** | Source + reference number |
 | `V4` | 3 Responses and Gaps | Table | 8 cells @ **8 w** | Current response + Gap, one row per issue E1 to E4 |
 | `S3.1` | 3 Responses and Gaps | Text | **14 w** | The single biggest gap, one line |
-| `R1` | 4 Future Improvements | Rec block | **11 w** | Fixes E1 |
-| `R2` | 4 Future Improvements | Rec block | **11 w** | Fixes E2 |
-| `R3` | 4 Future Improvements | Rec block | **11 w** | Fixes E3 |
-| `R4` | 4 Future Improvements | Rec block | **11 w** | Fixes E4 |
-| `D1` | 5 Where We Disagreed | Callout | **33 w** | The contentious question + the two positions |
-| `REF1` to `REF6` | 6 References | Harvard entry | **26 w** each | Two lines each, one consistent style |
+| `R1` | 4 Future Improvements | Rec block | **9 w** | Fixes E1 |
+| `R2` | 4 Future Improvements | Rec block | **9 w** | Fixes E2 |
+| `R3` | 4 Future Improvements | Rec block | **9 w** | Fixes E3 |
+| `R4` | 4 Future Improvements | Rec block | **9 w** | Fixes E4 |
+| `D1` | 5 Where We Disagreed | Callout | **22 w** | The contentious question + the two positions |
+| `REF1` to `REF6` | 6 References | Harvard entry | **18 w** each | Two lines each, one consistent style |
 
-**Total fillable body text: about 340 words**, plus roughly 155 words of references.
+**Total fillable body text: about 310 words**, plus roughly 110 words of references,
+so about 420 words of visible text in total.
 
 ## Why the budgets are lower than the brief's maxima
 
-The brief's per-box maxima add up to roughly 680 words. At the mandated type sizes
-(title 48 pt, headings 24 to 30 pt, body 14 to 18 pt) with four visuals, seven sections
-and 12 mm margins, an A3 sheet holds about 340 words of body text. The numbers above are
-what measurably fits and were verified by filling every box with dummy text at its stated
-budget and checking for clipping.
+The brief's per-box maxima add up to roughly 680 words, and the brief also asks for a
+450 to 550 word total. At the mandated type sizes (title 48 pt, headings 24 to 30 pt,
+body 14 to 18 pt) with four visuals, seven sections and 12 mm margins, an A3 sheet holds
+about 310 words of body text. The numbers above are what measurably fits: every box was
+filled with dummy text at its stated budget and checked for clipping, and the budgets were
+cut until nothing overflowed.
 
 If the group needs more words in a given box, take the space from another box: the row
 heights in `poster-layout.html` (`grid-template-rows`) are the single place to rebalance.
