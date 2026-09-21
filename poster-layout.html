@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ECS533U Poster Layout - AI Proctoring in High-Stakes Assessments</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ==============================================================
+   ECS533U Introduction to AI - Lab Week 1, Exercise 1.3
+   A3 PORTRAIT POSTER LAYOUT  (297 x 420 mm)
+   LAYOUT ONLY. Replace every [BRACKETED] string with your text.
+
+   TYPE SCALE
+     title 48pt / section headings 26pt / card headings 15pt
+     main prose 14pt / dense secondary 11pt / references 9.5pt
+   WORD BUDGETS
+     The "MAX n w" chip on every box is the number of words that
+     PHYSICALLY FIT at the sizes above. Overrunning it clips the box.
+   PRINT
+     Print at 100% / "Actual size", A3, background graphics ON.
+   ============================================================== */
+@page { size: A3; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #DDE3E8; }
+@media print { html, body { background:#fff; } .poster{ box-shadow:none !important; } }
+
+:root{
+  --ink:#0D2233; --primary:#14456E; --primary-soft:#E7EEF4; --accent:#C2600B;
+  --surface:#F4F7FA; --line:#CBD9E3; --muted:#5B7386;
+  --ph-fill:#EDF2F6; --ph-line:#A8BECE; --ph-label:#6E8799; --ph-text:#8FA4B4;
+  --e1:#0072B2; --e2:#B45F06; --e3:#04786A; --e4:#7B4EA3;
+  --display:'Archivo','Helvetica Neue',Arial,sans-serif;
+  --body:'Inter','Helvetica Neue',Arial,sans-serif;
+}
+
+.poster{
+  width:297mm; height:420mm; padding:12mm; margin:0 auto; background:#fff; overflow:hidden;
+  display:grid; row-gap:4.2mm;
+  grid-template-rows:63.0mm 62.5mm 99.5mm 53.0mm 43.1mm 14.8mm 1fr;
+  font-family:var(--body); color:var(--ink);
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  box-shadow:0 2mm 8mm rgba(0,0,0,.18);
+}
+
+/* ---------- shared placeholder styling ---------- */
+.ph{ background:var(--ph-fill); border:.26mm solid var(--ph-line); border-radius:1mm;
+     padding:2.1mm 2.9mm; display:flex; flex-direction:column; gap:1.6mm; overflow:hidden; }
+.phl{ display:flex; justify-content:space-between; align-items:center; gap:2.6mm; }
+.slot{ font-size:7.9pt; font-weight:700; letter-spacing:.06em; color:var(--ph-label); white-space:nowrap; }
+.bud{ font-size:7.9pt; font-weight:700; color:var(--accent); white-space:nowrap; }
+.bud.r{ margin-left:auto; }
+.fill{ margin:0; font-size:14pt; line-height:1.3; color:var(--ph-text); font-weight:500; }
+.fill.sm{ font-size:11pt; line-height:1.25; }
+
+/* ---------- section band ---------- */
+.band{ display:flex; align-items:center; gap:3.2mm; height:10.1mm; flex:none; }
+.num{ width:8.5mm; height:8.5mm; background:var(--primary); border-radius:1mm; flex:none;
+      display:flex; align-items:center; justify-content:center;
+      color:#fff; font-family:var(--display); font-size:16pt; font-weight:800; }
+.band h2{ margin:0; font-family:var(--display); font-size:26pt; font-weight:700; letter-spacing:-.017em; white-space:nowrap; }
+.band .hr{ flex:1; height:.53mm; background:var(--line); }
+
+/* ---------- 0. HEADER ---------- */
+.hdr{ display:flex; flex-direction:column; gap:2.1mm; }
+.admin{ display:flex; align-items:center; gap:4.2mm; padding:1.9mm 3.7mm;
+        background:var(--surface); border:.26mm solid var(--line); border-radius:1mm; }
+.af{ display:flex; flex-direction:column; gap:.2mm; min-width:0; }
+.af.grow{ flex:1; } .af.w32{ width:32mm; flex:none; } .af.w66{ width:66mm; flex:none; }
+.ak{ font-size:7pt; font-weight:700; letter-spacing:.06em; color:var(--muted); }
+.av{ font-size:9pt; font-weight:600; line-height:1.2; color:var(--ink); }
+.logo{ width:29.6mm; height:10mm; flex:none; display:flex; align-items:center; justify-content:center;
+       background:var(--ph-fill); border:.26mm solid var(--ph-line); border-radius:.8mm;
+       font-size:7pt; font-weight:700; letter-spacing:.05em; color:var(--ph-label); }
+h1{ margin:0; font-family:var(--display); font-size:48pt; font-weight:800; line-height:.98; letter-spacing:-.022em; }
+.rule{ height:1.1mm; background:var(--accent); }
+.subrow{ display:flex; justify-content:space-between; align-items:flex-end; gap:5mm; }
+.sub{ font-family:var(--display); font-size:19.5pt; font-weight:500; color:var(--primary); }
+.grp{ font-size:11pt; font-weight:600; color:var(--muted); }
+
+/* ---------- 1. SYSTEM OVERVIEW ---------- */
+.s1{ display:flex; flex-direction:column; gap:2.1mm; }
+.s1-text{ display:flex; gap:3.7mm; height:24.5mm; flex:none; }
+.s1-text .a{ flex:1; } .s1-text .b{ width:76.7mm; flex:none; }
+.s1-vis{ display:flex; gap:3.7mm; flex:1; min-height:0; }
+.flow{ display:flex; align-items:stretch; gap:2.1mm; flex:1; }
+.stage{ flex:1; background:var(--primary-soft); border-radius:1mm;
+        padding:1.9mm 2.6mm; display:flex; flex-direction:column; gap:1.2mm; overflow:hidden; }
+.stage h3{ margin:0; font-size:7.9pt; font-weight:800; letter-spacing:.07em; color:var(--primary); }
+.item{ display:flex; align-items:center; gap:1.6mm; font-size:8.2pt; font-weight:600; }
+.dot{ width:1.3mm; height:1.3mm; border-radius:50%; flex:none; }
+.arrow{ color:var(--accent); font-size:12pt; font-weight:700; flex:none; align-self:center; line-height:1; }
+.peas{ width:70.9mm; flex:none; border:.4mm solid var(--primary); border-radius:1mm;
+       padding:1.9mm 2.6mm; display:flex; flex-direction:column; gap:.8mm; overflow:hidden; }
+.peas h3{ margin:0; font-size:7.5pt; font-weight:800; letter-spacing:.07em; color:var(--primary); }
+.peas .row{ display:flex; align-items:center; gap:2.1mm; }
+.peas .k{ width:19mm; flex:none; font-size:7.9pt; font-weight:700; color:var(--muted); }
+.peas .v{ flex:1; font-size:8.2pt; color:var(--ph-text); }
+
+/* ---------- 2. ETHICAL ANALYSIS (dominant) ---------- */
+.s2{ display:flex; flex-direction:column; gap:2.6mm; }
+.stat{ height:15.0mm; flex:none; background:var(--primary); border-radius:1mm;
+       padding:2.6mm 4.8mm; display:flex; align-items:center; gap:5.3mm; color:#fff; }
+.stat .big{ font-family:var(--display); font-size:28pt; font-weight:800; letter-spacing:-.025em; }
+.stat .cap{ flex:1; display:flex; flex-direction:column; gap:1.2mm; min-width:0; }
+.stat .caphd{ display:flex; align-items:center; gap:3.2mm; }
+.stat .slot{ color:#A8C4DA; } .stat .bud{ color:#E8A75E; }
+.stat .txt{ font-size:11pt; color:#9FC0D8; }
+.cards{ flex:1; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; gap:3.2mm; min-height:0; }
+.card{ background:#fff; border:.26mm solid var(--line); border-radius:1.3mm;
+       padding:2.1mm 2.9mm; display:flex; flex-direction:column; gap:1.6mm; overflow:hidden; }
+.card .hd{ display:flex; align-items:center; gap:2.4mm; height:6.3mm; flex:none; }
+.tile{ width:6.3mm; height:6.3mm; border-radius:1mm; flex:none; display:flex; align-items:center; justify-content:center; }
+.tile svg{ width:4mm; height:4mm; stroke:#fff; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.code{ font-size:8.2pt; font-weight:800; letter-spacing:.05em; }
+.card h3{ margin:0; font-family:var(--display); font-size:15pt; font-weight:700; letter-spacing:-.012em; white-space:nowrap; }
+.card .fill{ flex:1; }
+.ev{ display:flex; align-items:center; gap:2.4mm; padding-top:1mm; flex:none; }
+.ev .tab{ width:.8mm; align-self:stretch; border-radius:.4mm; flex:none; }
+
+/* ---------- 3. RESPONSES AND GAPS ---------- */
+.s3{ display:flex; flex-direction:column; gap:2.1mm; }
+.tbl{ border:.26mm solid var(--line); border-radius:1mm; overflow:hidden; flex:none; }
+.tr{ display:flex; align-items:center; height:6.6mm; }
+.tr.head{ background:var(--primary-soft); height:6.3mm; }
+.tr.alt{ background:var(--surface); }
+.td{ padding:0 2.6mm; display:flex; align-items:center; gap:1.8mm; min-width:0; }
+.td.c1{ width:68.2mm; flex:none; } .td.c2,.td.c3{ flex:1; }
+.th{ font-size:7.5pt; font-weight:800; letter-spacing:.07em; color:var(--primary); }
+.chip{ width:5.8mm; height:3.7mm; border-radius:.8mm; flex:none; display:flex; align-items:center;
+       justify-content:center; color:#fff; font-size:6.5pt; font-weight:800; }
+.iname{ font-size:8.2pt; font-weight:600; }
+.cell{ font-size:11pt; color:var(--ph-text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.sum{ flex:1; display:flex; align-items:center; gap:3.2mm; background:var(--ph-fill);
+      border:.26mm solid var(--ph-line); border-radius:1mm; padding:0 2.9mm; overflow:hidden; }
+
+/* ---------- 4. FUTURE IMPROVEMENTS ---------- */
+.s4{ display:flex; flex-direction:column; gap:2.1mm; }
+.recs{ flex:1; display:flex; gap:3.2mm; min-height:0; }
+.rec{ flex:1; background:#fff; border:.26mm solid var(--line); border-radius:1.3mm;
+      padding:1.9mm 2.9mm; display:flex; flex-direction:column; gap:.9mm; overflow:hidden; }
+.rec .bar{ height:1.1mm; border-radius:.5mm; flex:none; }
+.rec .hd{ display:flex; align-items:center; gap:1.8mm; height:4.8mm; flex:none; }
+.rnum{ width:4.8mm; height:4.8mm; border-radius:50%; background:var(--primary); color:#fff; flex:none;
+       display:flex; align-items:center; justify-content:center; font-size:7.5pt; font-weight:800; }
+.fixes{ font-size:7.5pt; font-weight:800; letter-spacing:.05em; white-space:nowrap; }
+
+/* ---------- 5. WHERE WE DISAGREED ---------- */
+.dis{ display:flex; align-items:center; gap:4.2mm; background:#FDF3E7;
+      border:.4mm solid var(--accent); border-radius:1mm; padding:2.4mm 3.7mm; overflow:hidden; }
+.dis .lab{ width:61.4mm; flex:none; display:flex; align-items:center; gap:2.1mm; }
+.dis .lab svg{ width:5.3mm; height:5.3mm; stroke:var(--accent); fill:none; stroke-width:2;
+               stroke-linecap:round; stroke-linejoin:round; flex:none; }
+.dis .lt{ display:flex; flex-direction:column; gap:.3mm; }
+.dis .lt .t{ font-size:8.6pt; font-weight:800; letter-spacing:.06em; color:var(--accent); }
+.dis .lt .s{ font-size:7.5pt; font-weight:700; color:#A97030; }
+.dis .fill{ flex:1; color:#C29A6A; }
+
+/* ---------- 6. REFERENCES ---------- */
+.refs{ display:flex; flex-direction:column; gap:1.1mm; }
+.refs .hd{ display:flex; align-items:center; gap:3.2mm; }
+.refs h2{ margin:0; font-family:var(--display); font-size:13.5pt; font-weight:700; letter-spacing:-.01em; }
+.refs .note{ font-size:7.5pt; font-weight:700; letter-spacing:.06em; color:var(--ph-label); }
+.refs .hr{ flex:1; height:.26mm; background:var(--line); }
+.refcols{ flex:1; display:flex; gap:4.2mm; min-height:0; }
+.refcol{ flex:1; display:flex; flex-direction:column; gap:1.1mm; }
+.ref{ font-size:9.5pt; font-weight:500; color:var(--ph-label); line-height:1.2; }
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <!-- ===== 0. HEADER : admin block, title, group names ===== -->
+  <header class="hdr">
+    <div class="admin">
+      <div class="af grow"><span class="ak">LAB TITLE</span><span class="av">ECS533U Introduction to AI, Lab Week 1 (Exercise 1.3)</span></div>
+      <div class="af w32"><span class="ak">STUDENT NAME</span><span class="av">[NAME]</span></div>
+      <div class="af w32"><span class="ak">SUBMISSION TYPE</span><span class="av">Group</span></div>
+      <div class="af w66"><span class="ak">GROUP MEMBERS</span><span class="av">[NAME 1], [NAME 2], [NAME 3], [NAME 4]</span></div>
+      <div class="logo">[QMUL LOGO]</div>
+    </div>
+    <h1>AI Proctoring in High-Stakes Assessments</h1>
+    <div class="rule"></div>
+    <div class="subrow">
+      <div class="sub">A case study of HackerRank Proctor Mode</div>
+      <div class="grp">Group [NO.] &middot; [NAME 1] &middot; [NAME 2] &middot; [NAME 3] &middot; [NAME 4]</div>
+    </div>
+  </header>
+
+  <!-- ===== 1. SYSTEM OVERVIEW ===== -->
+  <section class="s1">
+    <div class="band"><div class="num">1</div><h2>System Overview</h2><div class="hr"></div></div>
+    <div class="s1-text">
+      <div class="ph a">
+        <div class="phl"><span class="slot">S1.1&nbsp;&nbsp;WHAT THE SYSTEM IS &middot; WHY IT COUNTS AS AI</span><span class="bud">MAX 24 w</span></div>
+        <p class="fill">[S1.1 TEXT: what Proctor Mode is, what it decides, why it is an AI agent. Max 24 words.]</p>
+      </div>
+      <div class="ph b">
+        <div class="phl"><span class="slot">S1.2&nbsp;&nbsp;WHERE IT IS USED</span><span class="bud">MAX 9 w</span></div>
+        <p class="fill">[S1.2: sectors, companies, scale.]</p>
+      </div>
+    </div>
+    <div class="s1-vis">
+      <div class="flow">
+        <div class="stage"><h3>BEFORE THE TEST</h3>
+          <div class="item"><span class="dot" style="background:var(--e1)"></span>[SENSOR / MODEL 1]</div>
+          <div class="item"><span class="dot" style="background:var(--e1)"></span>[SENSOR / MODEL 2]</div>
+          <div class="item"><span class="dot" style="background:var(--e1)"></span>[SENSOR / MODEL 3]</div>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="stage"><h3>DURING THE TEST</h3>
+          <div class="item"><span class="dot" style="background:var(--e2)"></span>[SENSOR / MODEL 1]</div>
+          <div class="item"><span class="dot" style="background:var(--e2)"></span>[SENSOR / MODEL 2]</div>
+          <div class="item"><span class="dot" style="background:var(--e2)"></span>[SENSOR / MODEL 3]</div>
+        </div>
+        <div class="arrow">&rarr;</div>
+        <div class="stage"><h3>AFTER THE TEST</h3>
+          <div class="item"><span class="dot" style="background:var(--e3)"></span>[SIGNAL / OUTPUT 1]</div>
+          <div class="item"><span class="dot" style="background:var(--e3)"></span>[SIGNAL / OUTPUT 2]</div>
+          <div class="item"><span class="dot" style="background:var(--e3)"></span>[SIGNAL / OUTPUT 3]</div>
+        </div>
+      </div>
+      <div class="peas">
+        <h3>V2 &nbsp;&middot;&nbsp; PEAS &nbsp;&middot;&nbsp; MAX 5 w PER ROW</h3>
+        <div class="row"><span class="k">Performance</span><span class="v">[MAX 5 w]</span></div>
+        <div class="row"><span class="k">Environment</span><span class="v">[MAX 5 w]</span></div>
+        <div class="row"><span class="k">Actuators</span><span class="v">[MAX 5 w]</span></div>
+        <div class="row"><span class="k">Sensors</span><span class="v">[MAX 5 w]</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 2. ETHICAL ANALYSIS : largest section ===== -->
+  <section class="s2">
+    <div class="band"><div class="num">2</div><h2>Ethical Analysis</h2><div class="hr"></div></div>
+    <div class="stat">
+      <div class="big">[ 00% ]</div>
+      <div class="cap">
+        <div class="caphd"><span class="slot">V3&nbsp;&nbsp;&nbsp;KEY STATISTIC &middot; ONE-LINE CAPTION</span><span class="bud">MAX 12 w</span></div>
+        <span class="txt">[V3 CAPTION: one line. Cite the source in the matching evidence line.]</span>
+      </div>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="hd">
+          <div class="tile" style="background:var(--e1)"><svg viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/></svg></div>
+          <span class="code" style="color:var(--e1)">E1</span>
+          <h3>Bias and Accuracy</h3>
+          <span class="bud r">MAX 16 w</span>
+        </div>
+        <p class="fill">[E1 TEXT: explain the issue in max 16 words.]</p>
+        <div class="ev">
+          <div class="tab" style="background:var(--e1)"></div>
+          <span class="slot">E1-EV&nbsp;&nbsp;EVIDENCE</span>
+          <span class="bud">MAX 7 w</span>
+          <span class="fill sm">[E1 evidence + ref no.]</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="hd">
+          <div class="tile" style="background:var(--e2)"><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <span class="code" style="color:var(--e2)">E2</span>
+          <h3>Privacy and Surveillance</h3>
+          <span class="bud r">MAX 16 w</span>
+        </div>
+        <p class="fill">[E2 TEXT: explain the issue in max 16 words.]</p>
+        <div class="ev">
+          <div class="tab" style="background:var(--e2)"></div>
+          <span class="slot">E2-EV&nbsp;&nbsp;EVIDENCE</span>
+          <span class="bud">MAX 7 w</span>
+          <span class="fill sm">[E2 evidence + ref no.]</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="hd">
+          <div class="tile" style="background:var(--e3)"><svg viewBox="0 0 24 24"><path d="M12 3v18"/><path d="M5 7h14"/><path d="M6.5 7 3 14h7z"/><path d="M17.5 7 21 14h-7z"/><path d="M8 21h8"/></svg></div>
+          <span class="code" style="color:var(--e3)">E3</span>
+          <h3>Accountability and Transparency</h3>
+          <span class="bud r">MAX 16 w</span>
+        </div>
+        <p class="fill">[E3 TEXT: explain the issue in max 16 words.]</p>
+        <div class="ev">
+          <div class="tab" style="background:var(--e3)"></div>
+          <span class="slot">E3-EV&nbsp;&nbsp;EVIDENCE</span>
+          <span class="bud">MAX 7 w</span>
+          <span class="fill sm">[E3 evidence + ref no.]</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="hd">
+          <div class="tile" style="background:var(--e4)"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <span class="code" style="color:var(--e4)">E4</span>
+          <h3>Consent and Power Imbalance</h3>
+          <span class="bud r">MAX 16 w</span>
+        </div>
+        <p class="fill">[E4 TEXT: explain the issue in max 16 words.]</p>
+        <div class="ev">
+          <div class="tab" style="background:var(--e4)"></div>
+          <span class="slot">E4-EV&nbsp;&nbsp;EVIDENCE</span>
+          <span class="bud">MAX 7 w</span>
+          <span class="fill sm">[E4 evidence + ref no.]</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== 3. CURRENT RESPONSES AND GAPS ===== -->
+  <section class="s3">
+    <div class="band"><div class="num">3</div><h2>Current Responses and Gaps</h2><div class="hr"></div></div>
+    <div class="tbl">
+      <div class="tr head">
+        <div class="td c1"><span class="th">V4 &nbsp;&nbsp;ISSUE (FROM SECTION 2)</span></div>
+        <div class="td c2"><span class="th">CURRENT RESPONSE &nbsp;&middot;&nbsp; MAX 8 w / CELL</span></div>
+        <div class="td c3"><span class="th">GAP &nbsp;&middot;&nbsp; MAX 8 w / CELL</span></div>
+      </div>
+      <div class="tr">
+        <div class="td c1"><span class="chip" style="background:var(--e1)">E1</span><span class="iname">Bias and Accuracy</span></div>
+        <div class="td c2"><span class="cell">[MAX 8 w]</span></div>
+        <div class="td c3"><span class="cell">[MAX 8 w]</span></div>
+      </div>
+      <div class="tr alt">
+        <div class="td c1"><span class="chip" style="background:var(--e2)">E2</span><span class="iname">Privacy and Surveillance</span></div>
+        <div class="td c2"><span class="cell">[MAX 8 w]</span></div>
+        <div class="td c3"><span class="cell">[MAX 8 w]</span></div>
+      </div>
+      <div class="tr">
+        <div class="td c1"><span class="chip" style="background:var(--e3)">E3</span><span class="iname">Accountability and Transparency</span></div>
+        <div class="td c2"><span class="cell">[MAX 8 w]</span></div>
+        <div class="td c3"><span class="cell">[MAX 8 w]</span></div>
+      </div>
+      <div class="tr alt">
+        <div class="td c1"><span class="chip" style="background:var(--e4)">E4</span><span class="iname">Consent and Power Imbalance</span></div>
+        <div class="td c2"><span class="cell">[MAX 8 w]</span></div>
+        <div class="td c3"><span class="cell">[MAX 8 w]</span></div>
+      </div>
+    </div>
+    <div class="sum">
+      <span class="slot">S3.1&nbsp;&nbsp;&nbsp;BIGGEST GAP IN ONE LINE</span>
+      <span class="bud">MAX 14 w</span>
+      <span class="fill sm">[S3.1 TEXT: the single biggest gap, in one line.]</span>
+    </div>
+  </section>
+
+  <!-- ===== 4. FUTURE IMPROVEMENTS ===== -->
+  <section class="s4">
+    <div class="band"><div class="num">4</div><h2>Future Improvements</h2><div class="hr"></div></div>
+    <div class="recs">
+      <article class="rec">
+        <div class="bar" style="background:var(--e1)"></div>
+        <div class="hd"><span class="rnum">1</span><span class="fixes" style="color:var(--e1)">R1 &middot; FIXES E1</span><span class="bud r">MAX 11 w</span></div>
+        <p class="fill">[R1 TEXT: max 11 words.]</p>
+      </article>
+      <article class="rec">
+        <div class="bar" style="background:var(--e2)"></div>
+        <div class="hd"><span class="rnum">2</span><span class="fixes" style="color:var(--e2)">R2 &middot; FIXES E2</span><span class="bud r">MAX 11 w</span></div>
+        <p class="fill">[R2 TEXT: max 11 words.]</p>
+      </article>
+      <article class="rec">
+        <div class="bar" style="background:var(--e3)"></div>
+        <div class="hd"><span class="rnum">3</span><span class="fixes" style="color:var(--e3)">R3 &middot; FIXES E3</span><span class="bud r">MAX 11 w</span></div>
+        <p class="fill">[R3 TEXT: max 11 words.]</p>
+      </article>
+      <article class="rec">
+        <div class="bar" style="background:var(--e4)"></div>
+        <div class="hd"><span class="rnum">4</span><span class="fixes" style="color:var(--e4)">R4 &middot; FIXES E4</span><span class="bud r">MAX 11 w</span></div>
+        <p class="fill">[R4 TEXT: max 11 words.]</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== 5. WHERE WE DISAGREED ===== -->
+  <section class="dis">
+    <div class="lab">
+      <svg viewBox="0 0 24 24"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+      <span class="lt"><span class="t">WHERE WE DISAGREED</span><span class="s">D1 &nbsp;&middot;&nbsp; MAX 33 w</span></span>
+    </div>
+    <p class="fill sm">[D1 TEXT: state the contentious question the group debated, and the two positions that were taken. This box is the prompt for the Q&amp;A, so keep it as a question. Max 33 words.]</p>
+  </section>
+
+  <!-- ===== 6. REFERENCES ===== -->
+  <section class="refs">
+    <div class="hd">
+      <h2>References</h2>
+      <span class="note">HARVARD STYLE &nbsp;&middot;&nbsp; 6 ENTRIES &nbsp;&middot;&nbsp; MAX 2 LINES / 26 w PER ENTRY</span>
+      <div class="hr"></div>
+    </div>
+    <div class="refcols">
+      <div class="refcol">
+        <div class="ref">[1]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+        <div class="ref">[2]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+        <div class="ref">[3]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+      </div>
+      <div class="refcol">
+        <div class="ref">[4]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+        <div class="ref">[5]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+        <div class="ref">[6]&nbsp; Author, A. (Year) Title of the source. Publisher or journal. Available at: URL [Accessed date].</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

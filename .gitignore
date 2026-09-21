@@ -1,0 +1,6 @@
+# scratch verification artefacts
+_filltest.html
+.DS_Store
+
+# regenerated previews (stale until canvas is re-exported)
+exports/
