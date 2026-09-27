@@ -24,7 +24,7 @@
           "id": "Qw0m3",
           "name": "Space",
           "width": "fill_container",
-          "height": 24
+          "height": 12
         },
         {
           "type": "frame",
@@ -49,7 +49,7 @@
               "id": "EpRhP",
               "name": "Space",
               "width": "fill_container",
-              "height": 18
+              "height": 8
             },
             {
               "type": "text",
@@ -61,16 +61,16 @@
               "content": "Who’s watching the test?",
               "lineHeight": 0.98,
               "fontFamily": "Space Grotesk",
-              "fontSize": 76,
+              "fontSize": 64,
               "fontWeight": "bold",
-              "letterSpacing": -3.36
+              "letterSpacing": -2.8
             },
             {
               "type": "frame",
               "id": "k1tzUm",
               "name": "Space",
               "width": "fill_container",
-              "height": 16
+              "height": 8
             },
             {
               "type": "text",
@@ -82,7 +82,7 @@
               "content": "AI proctoring in university exams and HackerRank job assessments",
               "lineHeight": 1.3,
               "fontFamily": "IBM Plex Sans",
-              "fontSize": 20,
+              "fontSize": 18,
               "fontWeight": "normal"
             },
             {
@@ -90,7 +90,7 @@
               "id": "Hecgg",
               "name": "Space",
               "width": "fill_container",
-              "height": 10
+              "height": 4
             },
             {
               "type": "text",
@@ -110,7 +110,7 @@
           "id": "JHBJl",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
+          "height": 4
         },
         {
           "type": "frame",
@@ -125,7 +125,7 @@
           "id": "BRGVt",
           "name": "Space",
           "width": "fill_container",
-          "height": 16
+          "height": 12
         },
         {
           "type": "text",
@@ -143,554 +143,1180 @@
           "id": "tLs0t",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
-        },
-        {
-          "type": "frame",
-          "id": "A5tDF",
-          "name": "Hero Graphic",
-          "width": "fill_container",
-          "height": 310,
-          "layout": "none",
-          "children": [
-            {
-              "type": "rectangle",
-              "id": "Oqkg4",
-              "x": 366,
-              "y": 0,
-              "name": "hero-image",
-              "fill": {
-                "type": "image",
-                "enabled": true,
-                "url": "images/Gemini_Generated_Image_n15aobn15aobn15a.jpg",
-                "mode": "fill"
-              },
-              "width": 264,
-              "height": 268
-            },
-            {
-              "type": "frame",
-              "id": "PkypS",
-              "x": 0,
-              "y": 30,
-              "name": "Label Webcam face tracking",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "eOLUB",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Webcam face tracking",
-                  "lineHeight": 1.25,
-                  "textAlign": "right",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "aOSGd",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BOTH",
-                  "textAlign": "right",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "dQJY5",
-              "x": 0,
-              "y": 110,
-              "name": "Label Multiple-face detection",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "b2DllL",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Multiple-face detection",
-                  "lineHeight": 1.25,
-                  "textAlign": "right",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "aFWrQ",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BOTH",
-                  "textAlign": "right",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "s6mSiP",
-              "x": 800,
-              "y": 85,
-              "name": "Label Room scan",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "kJyOY",
-                  "name": "Text",
-                  "fill": "$p-red",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Room scan",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "fp8fn",
-                  "name": "Tag",
-                  "fill": "$p-red",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "EXAMS",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "JMggV",
-              "x": 800,
-              "y": 0,
-              "name": "Label Lockdown browser / full-screen lock",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "gjA8z",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Lockdown browser / full-screen lock",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "f41O9Y",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BOTH",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "uSWUQ",
-              "x": 800,
-              "y": 155,
-              "name": "Label Tab-switch tracking",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "UVja3",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Tab-switch tracking",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "w1x9R",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BOTH",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "ZwDza",
-              "x": 800,
-              "y": 225,
-              "name": "Label Copy-paste logging",
-              "width": 195,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "y17n2z",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Copy-paste logging",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "CSgRx",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "HACKERRANK",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "eDXAd",
-              "x": 580,
-              "y": 274,
-              "name": "Label Phone detection",
-              "width": 200,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "pOavb",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Phone detection",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "E2Cem",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "BOTH",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "MRoS9",
-              "x": 290,
-              "y": 274,
-              "name": "Label Keystroke rhythm analysis",
-              "width": 220,
-              "layout": "vertical",
-              "gap": 3,
-              "children": [
-                {
-                  "type": "text",
-                  "id": "r8hyTo",
-                  "name": "Text",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Keystroke rhythm analysis",
-                  "lineHeight": 1.25,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 15,
-                  "fontWeight": "medium"
-                },
-                {
-                  "type": "text",
-                  "id": "EhEyB",
-                  "name": "Tag",
-                  "fill": "$p-grey",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "HACKERRANK",
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 10,
-                  "fontWeight": "medium",
-                  "letterSpacing": 1.4
-                }
-              ]
-            },
-            {
-              "type": "path",
-              "id": "fPHqk",
-              "x": 205,
-              "y": 41,
-              "name": "Leader",
-              "geometry": "M0 0l234 28",
-              "viewBox": [
-                0,
-                0,
-                234,
-                28
-              ],
-              "width": 234,
-              "height": 28,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "ellipse",
-              "id": "q5QEAT",
-              "x": 435.5,
-              "y": 65.5,
-              "name": "Anchor Dot",
-              "fill": "$p-ink",
-              "width": 7,
-              "height": 7
-            },
-            {
-              "type": "path",
-              "id": "k2L5rx",
-              "x": 205,
-              "y": 92,
-              "name": "Leader",
-              "geometry": "M0 29l238-29",
-              "viewBox": [
-                0,
-                0,
-                238,
-                29
-              ],
-              "width": 238,
-              "height": 29,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "ellipse",
-              "id": "tWD5a",
-              "x": 439.5,
-              "y": 88.5,
-              "name": "Anchor Dot",
-              "fill": "$p-ink",
-              "width": 7,
-              "height": 7
-            },
-            {
-              "type": "path",
-              "id": "QXoyI",
-              "x": 360,
-              "y": 138,
-              "name": "Leader",
-              "geometry": "M0 130l154-130",
-              "viewBox": [
-                0,
-                0,
-                154,
-                130
-              ],
-              "width": 154,
-              "height": 130,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "path",
-              "id": "oiF58",
-              "x": 546,
-              "y": 11,
-              "name": "Leader",
-              "geometry": "M244 0l-244 86",
-              "viewBox": [
-                0,
-                0,
-                244,
-                86
-              ],
-              "width": 244,
-              "height": 86,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "ellipse",
-              "id": "h31sQ",
-              "x": 542.5,
-              "y": 93.5,
-              "name": "Anchor Dot",
-              "fill": "$p-ink",
-              "width": 7,
-              "height": 7
-            },
-            {
-              "type": "path",
-              "id": "Zq6ev",
-              "x": 555,
-              "y": 96,
-              "name": "Leader",
-              "geometry": "M235 0l-235 8",
-              "viewBox": [
-                0,
-                0,
-                235,
-                8
-              ],
-              "width": 235,
-              "height": 8,
-              "stroke": "$p-red",
-              "strokeWidth": 2
-            },
-            {
-              "type": "ellipse",
-              "id": "CMGAf",
-              "x": 550,
-              "y": 99,
-              "name": "Anchor Dot",
-              "fill": "$p-red",
-              "width": 10,
-              "height": 10
-            },
-            {
-              "type": "path",
-              "id": "PmuFv",
-              "x": 566,
-              "y": 111,
-              "name": "Leader",
-              "geometry": "M224 55l-224-55",
-              "viewBox": [
-                0,
-                0,
-                224,
-                55
-              ],
-              "width": 224,
-              "height": 55,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "ellipse",
-              "id": "ZF98D",
-              "x": 562.5,
-              "y": 107.5,
-              "name": "Anchor Dot",
-              "fill": "$p-ink",
-              "width": 7,
-              "height": 7
-            },
-            {
-              "type": "path",
-              "id": "leoz8",
-              "x": 524,
-              "y": 137,
-              "name": "Leader",
-              "geometry": "M266 99l-266-99",
-              "viewBox": [
-                0,
-                0,
-                266,
-                99
-              ],
-              "width": 266,
-              "height": 99,
-              "stroke": "$p-ink",
-              "strokeWidth": 1
-            },
-            {
-              "type": "ellipse",
-              "id": "tpYnJ",
-              "x": 520.5,
-              "y": 133.5,
-              "name": "Anchor Dot",
-              "fill": "$p-ink",
-              "width": 7,
-              "height": 7
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "kKeC3",
-          "name": "Space",
-          "width": "fill_container",
           "height": 10
         },
         {
-          "type": "text",
-          "id": "nGjGg",
-          "name": "Caption",
-          "fill": "$p-ink",
-          "textGrowth": "fixed-width",
+          "type": "frame",
+          "id": "la3km",
+          "name": "Hero Row",
           "width": "fill_container",
-          "content": "Computer vision and machine learning flag “suspicious” behaviour. A human decides.",
-          "lineHeight": 1.35,
-          "fontFamily": "IBM Plex Sans",
-          "fontSize": 16,
-          "fontWeight": "normal",
-          "fontStyle": "italic"
+          "gap": 50,
+          "children": [
+            {
+              "type": "frame",
+              "id": "gmhZh",
+              "name": "Figure Column",
+              "width": 607,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "A5tDF",
+                  "name": "Hero Graphic",
+                  "width": 607,
+                  "height": 312,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "Oqkg4",
+                      "x": 188,
+                      "y": 4,
+                      "name": "hero-figure",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/hero-figure.png",
+                        "mode": "fit"
+                      },
+                      "width": 212,
+                      "height": 253
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PkypS",
+                      "x": 0,
+                      "y": 4,
+                      "name": "Label Webcam face tracking",
+                      "width": 175,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eOLUB",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Webcam face tracking",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aOSGd",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "image capture every 2-3 seconds",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dQJY5",
+                      "x": 0,
+                      "y": 77,
+                      "name": "Label Multiple face detection",
+                      "width": 175,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b2DllL",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Multiple face detection",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aFWrQ",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "flags a second person in frame",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "s6mSiP",
+                      "x": 412,
+                      "y": 0,
+                      "name": "Label Room scan",
+                      "width": 195,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kJyOY",
+                          "name": "Text",
+                          "fill": "$p-red",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Room scan",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fp8fn",
+                          "name": "Tag",
+                          "fill": "$p-red",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "360 degree sweep before the start of the test",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JMggV",
+                      "x": 412,
+                      "y": 73,
+                      "name": "Label Full-screen lock / OS level lock",
+                      "width": 195,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gjA8z",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Full-screen lock / OS level lock",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "f41O9Y",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "leaving full screen or test application is forbidden",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uSWUQ",
+                      "x": 412,
+                      "y": 146,
+                      "name": "Label Tab-switching tracking",
+                      "width": 195,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UVja3",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tab-switching tracking",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "w1x9R",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "every focus change is timestamped",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZwDza",
+                      "x": 412,
+                      "y": 263,
+                      "name": "Label Copy-paste logging",
+                      "width": 195,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y17n2z",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Copy-paste logging",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CSgRx",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "external paste blocked and recorded, internal allowed",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eDXAd",
+                      "x": 188,
+                      "y": 277,
+                      "name": "Label Phone detection",
+                      "width": 210,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pOavb",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Phone detection",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E2Cem",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "flagged even if partly visible",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MRoS9",
+                      "x": 0,
+                      "y": 223,
+                      "name": "Label Keystroke rhythm analysis",
+                      "width": 175,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r8hyTo",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Keystroke rhythm analysis",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EhEyB",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "typing bursts, pauses, mass deletions",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f4bFa",
+                      "x": 0,
+                      "y": 150,
+                      "name": "Label Gaze tracking",
+                      "width": 175,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Bewru",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Gaze tracking",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zOZBs",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "look away then type",
+                          "lineHeight": 1.25,
+                          "textAlign": "right",
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lCDCK",
+                      "x": 412,
+                      "y": 204,
+                      "name": "Label Screen capture",
+                      "width": 195,
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x8IYn",
+                          "name": "Text",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Screen capture",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 14,
+                          "fontWeight": "medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MdIHs",
+                          "name": "Tag",
+                          "fill": "$p-grey",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "every 15s, every 5s once flagged",
+                          "lineHeight": 1.25,
+                          "fontFamily": "IBM Plex Sans",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "WfOQN",
+                      "x": 183,
+                      "y": 12,
+                      "name": "Leader Webcam face tracking",
+                      "geometry": "M0 1l24-1",
+                      "viewBox": [
+                        0,
+                        0,
+                        24,
+                        1
+                      ],
+                      "width": 24,
+                      "height": 1,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "IASpz",
+                      "x": 204.8,
+                      "y": 9.8,
+                      "name": "Anchor Webcam face tracking",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "iYw3c",
+                      "x": 183,
+                      "y": 44,
+                      "name": "Leader Multiple face detection",
+                      "geometry": "M0 42l24-42",
+                      "viewBox": [
+                        0,
+                        0,
+                        24,
+                        42
+                      ],
+                      "width": 24,
+                      "height": 42,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "D5BcT",
+                      "x": 204.8,
+                      "y": 41.8,
+                      "name": "Anchor Multiple face detection",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "HhI13",
+                      "x": 183,
+                      "y": 69,
+                      "name": "Leader Gaze tracking",
+                      "geometry": "M0 90l27-90",
+                      "viewBox": [
+                        0,
+                        0,
+                        27,
+                        90
+                      ],
+                      "width": 27,
+                      "height": 90,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "VXYYm",
+                      "x": 207.8,
+                      "y": 66.8,
+                      "name": "Anchor Gaze tracking",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "JhA3O",
+                      "x": 183,
+                      "y": 124,
+                      "name": "Leader Keystroke rhythm analysis",
+                      "geometry": "M0 108l131-108",
+                      "viewBox": [
+                        0,
+                        0,
+                        131,
+                        108
+                      ],
+                      "width": 131,
+                      "height": 108,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "QeMRl",
+                      "x": 311.8,
+                      "y": 121.8,
+                      "name": "Anchor Keystroke rhythm analysis",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "WjZjA",
+                      "x": 374,
+                      "y": 9,
+                      "name": "Leader Room scan",
+                      "geometry": "M30 0l-30 78",
+                      "viewBox": [
+                        0,
+                        0,
+                        30,
+                        78
+                      ],
+                      "width": 30,
+                      "height": 78,
+                      "stroke": "$p-red",
+                      "strokeWidth": 1.6
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "clJtV",
+                      "x": 371,
+                      "y": 84,
+                      "name": "Anchor Room scan",
+                      "fill": "$p-red",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "type": "path",
+                      "id": "DloA5",
+                      "x": 385,
+                      "y": 82,
+                      "name": "Leader Full-screen lock",
+                      "geometry": "M19 0l-19 26",
+                      "viewBox": [
+                        0,
+                        0,
+                        19,
+                        26
+                      ],
+                      "width": 19,
+                      "height": 26,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "sDgqM",
+                      "x": 382.8,
+                      "y": 105.8,
+                      "name": "Anchor Full-screen lock",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "dLV7S",
+                      "x": 379,
+                      "y": 130,
+                      "name": "Leader Tab-switching tracking",
+                      "geometry": "M25 25l-25-25",
+                      "viewBox": [
+                        0,
+                        0,
+                        25,
+                        25
+                      ],
+                      "width": 25,
+                      "height": 25,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "Q0TPE",
+                      "x": 376.8,
+                      "y": 127.8,
+                      "name": "Anchor Tab-switching tracking",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "CyWbg",
+                      "x": 372,
+                      "y": 147,
+                      "name": "Leader Screen capture",
+                      "geometry": "M32 66l-32-66",
+                      "viewBox": [
+                        0,
+                        0,
+                        32,
+                        66
+                      ],
+                      "width": 32,
+                      "height": 66,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "gVzPe",
+                      "x": 369.8,
+                      "y": 144.8,
+                      "name": "Anchor Screen capture",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "WIwqJ",
+                      "x": 342,
+                      "y": 147,
+                      "name": "Leader Copy-paste logging",
+                      "geometry": "M62 125l-62-125",
+                      "viewBox": [
+                        0,
+                        0,
+                        62,
+                        125
+                      ],
+                      "width": 62,
+                      "height": 125,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "ANaF4",
+                      "x": 339.8,
+                      "y": 144.8,
+                      "name": "Anchor Copy-paste logging",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    },
+                    {
+                      "type": "path",
+                      "id": "prmLK",
+                      "x": 198,
+                      "y": 167,
+                      "name": "Leader Phone detection",
+                      "geometry": "M0 105l127-105",
+                      "viewBox": [
+                        0,
+                        0,
+                        127,
+                        105
+                      ],
+                      "width": 127,
+                      "height": 105,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 0.9
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "hjUp1",
+                      "x": 322.8,
+                      "y": 164.8,
+                      "name": "Anchor Phone detection",
+                      "fill": "$p-ink",
+                      "width": 4.4,
+                      "height": 4.4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kKeC3",
+                  "name": "Space",
+                  "width": "fill_container",
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "nGjGg",
+                  "name": "Caption",
+                  "fill": "$p-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Computer vision and behavioural models score the session. Nothing here proves cheating. It produces suspicion, and a human decides.",
+                  "lineHeight": 1.35,
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dbXCe",
+              "name": "Info Column",
+              "width": 354,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sR0sM",
+                  "name": "Block PEAS",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p9up0",
+                      "name": "Block Heading",
+                      "fill": "$p-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Why this counts as AI",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RVty6",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 6
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c3tGb",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$p-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MYPNI",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 6
+                    },
+                    {
+                      "type": "frame",
+                      "id": "inDmH",
+                      "name": "PEAS List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 7,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UudQp",
+                          "name": "PEAS Performance",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nLXmt",
+                              "name": "Term",
+                              "fill": "$p-red",
+                              "textGrowth": "fixed-width",
+                              "width": 86,
+                              "content": "Performance",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rCTE4",
+                              "name": "Bullet Text",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "catch cheating, spare the honest",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aS3RH",
+                          "name": "PEAS Environment",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "w313C",
+                              "name": "Term",
+                              "fill": "$p-red",
+                              "textGrowth": "fixed-width",
+                              "width": 86,
+                              "content": "Environment",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pqG2D",
+                              "name": "Bullet Text",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "one candidate, one room, one screen",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DKSGY",
+                          "name": "PEAS Actuators",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O8CQP",
+                              "name": "Term",
+                              "fill": "$p-red",
+                              "textGrowth": "fixed-width",
+                              "width": 86,
+                              "content": "Actuators",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vxpPL",
+                              "name": "Bullet Text",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "flags, screenshots, an integrity score",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bfPFO",
+                          "name": "PEAS Sensors",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ptunZ",
+                              "name": "Term",
+                              "fill": "$p-red",
+                              "textGrowth": "fixed-width",
+                              "width": 86,
+                              "content": "Sensors",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uqOyb",
+                              "name": "Bullet Text",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "camera, screen, keystrokes, browser",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Tp8fY",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "k0NsU",
+                      "name": "Closing",
+                      "fill": "$p-grey",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Percepts in, actions out. It keeps state and adapts: one flag makes it watch harder.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aC5bF",
+                  "name": "Block Lockdown",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TKxQ0",
+                      "name": "Block Heading",
+                      "fill": "$p-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Three levels of lockdown",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rQ0FC",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 6
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DjfT0",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$p-ink"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lgIVS",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 6
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PHw2V",
+                      "name": "List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AdBW2",
+                          "name": "Level 1",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pWrqc",
+                              "name": "Num",
+                              "fill": "$p-red",
+                              "content": "1",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "bw82o",
+                              "name": "Term",
+                              "fill": "$p-ink",
+                              "content": "Secure.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "u4BEuM",
+                              "name": "Desc",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Rules only. Full screen, no copy-paste, one monitor.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GE0Nv",
+                          "name": "Level 2",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Rugwk",
+                              "name": "Num",
+                              "fill": "$p-red",
+                              "content": "2",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KVxRu",
+                              "name": "Term",
+                              "fill": "$p-ink",
+                              "content": "Proctor.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "eSfkM",
+                              "name": "Desc",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI added. Webcam, screenshots, gaze, plagiarism scoring.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zdT95",
+                          "name": "Level 3",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "H2U7g",
+                              "name": "Num",
+                              "fill": "$p-red",
+                              "content": "3",
+                              "lineHeight": 1.35,
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "t3YmM",
+                              "name": "Term",
+                              "fill": "$p-ink",
+                              "content": "Desktop app.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "N9wmK",
+                              "name": "Desc",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Operating system level lockdown.",
+                              "lineHeight": 1.35,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ytlvw",
+                      "name": "Space",
+                      "width": "fill_container",
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "v0bCrh",
+                      "name": "Closing",
+                      "fill": "$p-grey",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Level 1 is a rule. Level 2 is a model. Only level 2 can be wrong about you.",
+                      "lineHeight": 1.3,
+                      "fontFamily": "IBM Plex Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "frame",
           "id": "i9iePw",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
+          "height": 14
         },
         {
           "type": "frame",
@@ -712,7 +1338,7 @@
               "id": "AQsu5",
               "name": "Space",
               "width": "fill_container",
-              "height": 10
+              "height": 8
             },
             {
               "type": "frame",
@@ -725,7 +1351,7 @@
                   "type": "frame",
                   "id": "QSKAL",
                   "name": "Flow Column",
-                  "width": 560,
+                  "width": "fill_container",
                   "layout": "vertical",
                   "children": [
                     {
@@ -747,7 +1373,7 @@
                       "id": "ml3XB",
                       "name": "Space",
                       "width": "fill_container",
-                      "height": 10
+                      "height": 5
                     },
                     {
                       "type": "frame",
@@ -762,139 +1388,371 @@
                       "id": "Dq4e9",
                       "name": "Space",
                       "width": "fill_container",
-                      "height": 10
+                      "height": 8
                     },
                     {
                       "type": "frame",
-                      "id": "Cs4XF",
-                      "name": "Flow Crop",
-                      "clip": true,
+                      "id": "MASbv",
+                      "name": "Flow Boxes",
                       "width": "fill_container",
-                      "height": 92,
-                      "layout": "none",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "id": "tnBe9",
-                          "x": 0,
-                          "y": -45,
-                          "name": "flow",
-                          "fill": {
-                            "type": "image",
-                            "enabled": true,
-                            "url": "images/Gemini_Generated_Image_4f2mvx4f2mvx4f2m.jpg",
-                            "mode": "fill"
-                          },
-                          "width": 560,
-                          "height": 174
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Hj5Ac",
-                      "name": "Space",
-                      "width": "fill_container",
-                      "height": 10
-                    },
-                    {
-                      "type": "text",
-                      "id": "Gev2H",
-                      "name": "Flow Note",
-                      "fill": "$p-red",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "The candidate usually never sees the footage, the reason, or a route to appeal.",
-                      "lineHeight": 1.35,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "LD3id",
-                      "layoutPosition": "absolute",
-                      "x": 236,
-                      "y": 120,
-                      "name": "Bracket",
-                      "width": 304,
-                      "height": 12,
-                      "layout": "none",
+                      "height": 97,
+                      "alignItems": "center",
                       "children": [
                         {
                           "type": "frame",
-                          "id": "j1SwA6",
-                          "x": 0,
-                          "y": 10,
-                          "name": "Line",
-                          "width": 304,
-                          "height": 1.5,
-                          "fill": "$p-red"
+                          "id": "eqhbV",
+                          "name": "Box SIGNAL",
+                          "width": "fill_container",
+                          "height": 97,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            10,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "RMwdU",
+                              "name": "Icon",
+                              "width": 42,
+                              "height": 42,
+                              "icon": "activity",
+                              "library": "lucide",
+                              "fill": "$p-ink"
+                            },
+                            {
+                              "type": "text",
+                              "id": "w8nVZh",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "SIGNAL",
+                              "lineHeight": 1.15,
+                              "textAlign": "center",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "H6GR4H",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "face lost, tab switch, paste",
+                              "lineHeight": 1.2,
+                              "textAlign": "center",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "KXk1Q",
+                          "name": "Arrow",
+                          "geometry": "M0 5h16m-4-4l4 4-4 4",
+                          "viewBox": [
+                            0,
+                            0,
+                            20,
+                            10
+                          ],
+                          "width": 20,
+                          "height": 10,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2
                         },
                         {
                           "type": "frame",
-                          "id": "wK57V",
-                          "x": 0,
-                          "y": 4,
-                          "name": "Tick L",
-                          "width": 1.5,
-                          "height": 7,
-                          "fill": "$p-red"
+                          "id": "lcLb2",
+                          "name": "Box ML MODEL",
+                          "width": "fill_container",
+                          "height": 97,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            10,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "c6DKZt",
+                              "name": "Icon",
+                              "width": 42,
+                              "height": 42,
+                              "icon": "cpu",
+                              "library": "lucide",
+                              "fill": "$p-ink"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rhy8z",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "ML MODEL",
+                              "lineHeight": 1.15,
+                              "textAlign": "center",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "wQada",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "scores the behaviour",
+                              "lineHeight": 1.2,
+                              "textAlign": "center",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "jV7Tk",
+                          "name": "Arrow",
+                          "geometry": "M0 5h16m-4-4l4 4-4 4",
+                          "viewBox": [
+                            0,
+                            0,
+                            20,
+                            10
+                          ],
+                          "width": 20,
+                          "height": 10,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2
                         },
                         {
                           "type": "frame",
-                          "id": "dvDsr",
-                          "x": 302.5,
-                          "y": 4,
-                          "name": "Tick R",
-                          "width": 1.5,
-                          "height": 7,
-                          "fill": "$p-red"
+                          "id": "vcPmZ",
+                          "name": "Box FLAGGED",
+                          "width": "fill_container",
+                          "height": 97,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            10,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "NJzSv",
+                              "name": "Icon",
+                              "width": 42,
+                              "height": 42,
+                              "icon": "flag",
+                              "library": "lucide",
+                              "fill": "$p-ink"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WZZ1m",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "FLAGGED",
+                              "lineHeight": 1.15,
+                              "textAlign": "center",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "leN3n",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "integrity result: High or Medium",
+                              "lineHeight": 1.2,
+                              "textAlign": "center",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "lQ4SS",
+                          "name": "Arrow",
+                          "geometry": "M0 5h16m-4-4l4 4-4 4",
+                          "viewBox": [
+                            0,
+                            0,
+                            20,
+                            10
+                          ],
+                          "width": 20,
+                          "height": 10,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ERK4U",
+                          "name": "Box HUMAN REVIEW",
+                          "width": "fill_container",
+                          "height": 97,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            10,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "EdG7N",
+                              "name": "Icon",
+                              "width": 42,
+                              "height": 42,
+                              "icon": "user-check",
+                              "library": "lucide",
+                              "fill": "$p-ink"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Kra9S",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "HUMAN REVIEW",
+                              "lineHeight": 1.15,
+                              "textAlign": "center",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "dAj2a",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "invigilator or recruiter",
+                              "lineHeight": 1.2,
+                              "textAlign": "center",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "path",
+                          "id": "hkCDr",
+                          "name": "Arrow",
+                          "geometry": "M0 5h16m-4-4l4 4-4 4",
+                          "viewBox": [
+                            0,
+                            0,
+                            20,
+                            10
+                          ],
+                          "width": 20,
+                          "height": 10,
+                          "stroke": "$p-ink",
+                          "strokeWidth": 1.2
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Lm9e3",
+                          "name": "Box OUTCOME",
+                          "width": "fill_container",
+                          "height": 97,
+                          "stroke": "$p-red",
+                          "strokeWidth": 1.2,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "padding": [
+                            10,
+                            8
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "U6ICs",
+                              "name": "Icon",
+                              "width": 42,
+                              "height": 42,
+                              "icon": "scale",
+                              "library": "lucide",
+                              "fill": "$p-red"
+                            },
+                            {
+                              "type": "text",
+                              "id": "b6kc40",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "OUTCOME",
+                              "lineHeight": 1.15,
+                              "textAlign": "center",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.3
+                            },
+                            {
+                              "type": "text",
+                              "id": "R2m2u9",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "cleared / investigated / disqualified",
+                              "lineHeight": 1.2,
+                              "textAlign": "center",
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "pJx12",
-                  "name": "Quote Column",
-                  "width": 395,
-                  "layout": "vertical",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "MBCdA",
-                      "name": "Quote",
-                      "fill": "$p-red",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "“Face not found. Room too dark.”",
-                      "lineHeight": 1.12,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 34,
-                      "fontWeight": "bold",
-                      "letterSpacing": -1
-                    },
-                    {
-                      "type": "frame",
-                      "id": "r2c55F",
-                      "name": "Space",
-                      "width": "fill_container",
-                      "height": 10
-                    },
-                    {
-                      "type": "text",
-                      "id": "puUk9",
-                      "name": "Quote Source",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "The errors that kept a student out of her exam — VU Amsterdam, 2022.",
-                      "lineHeight": 1.4,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -905,7 +1763,7 @@
               "id": "i04UF",
               "name": "Space",
               "width": "fill_container",
-              "height": 10
+              "height": 8
             },
             {
               "type": "frame",
@@ -922,215 +1780,1105 @@
           "id": "VsQn0",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
+          "height": 16
         },
         {
           "type": "frame",
-          "id": "GVqPI",
-          "name": "Columns",
+          "id": "oWsNO",
+          "name": "Band 02 | 03 + Gap",
           "width": "fill_container",
-          "height": 306,
+          "layout": "vertical",
           "children": [
             {
               "type": "frame",
-              "id": "JQ6QU",
-              "name": "Col 02",
+              "id": "GVqPI",
+              "name": "Band 02 | 03",
               "width": "fill_container",
-              "height": "fill_container",
-              "layout": "vertical",
-              "padding": [
-                0,
-                30,
-                0,
-                0
-              ],
+              "height": 279,
               "children": [
                 {
                   "type": "frame",
-                  "id": "ejfGP",
-                  "name": "Head Row",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "alignItems": "center",
+                  "id": "JQ6QU",
+                  "name": "Col 02",
+                  "width": 505,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    30,
+                    0,
+                    0
+                  ],
                   "children": [
                     {
-                      "type": "text",
-                      "id": "yHh9L",
-                      "name": "Num",
-                      "fill": "$p-red",
-                      "content": "02",
-                      "lineHeight": 1,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 40,
-                      "fontWeight": "bold",
-                      "letterSpacing": -1.5
+                      "type": "frame",
+                      "id": "ejfGP",
+                      "name": "Head Row",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yHh9L",
+                          "name": "Num",
+                          "fill": "$p-red",
+                          "content": "02",
+                          "lineHeight": 1,
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 30,
+                          "fontWeight": "bold",
+                          "letterSpacing": -1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "p1Q3O",
+                          "name": "Title",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ethical issues",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 30,
+                          "fontWeight": "bold",
+                          "letterSpacing": -0.8
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "p1Q3O",
-                      "name": "Title",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "Q5tGq",
+                      "name": "Space",
                       "width": "fill_container",
-                      "content": "Ethical issues",
-                      "lineHeight": 1.05,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 30,
-                      "fontWeight": "bold",
-                      "letterSpacing": -0.8
+                      "height": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J85TCt",
+                      "name": "Issue Cards",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Sfw6f",
+                          "name": "Ethics Row 1",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sajCW",
+                              "name": "Card 1",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "FQSGd",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "nQF29",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "hUrzl",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "fFsFl",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Bias you cannot prove",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FOut9",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "dMPv6",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Face detection struggles with darker skin. Students are locked out, lose exam time, and cannot prove it.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "af6NR",
+                              "name": "Card 2",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "oaxNW",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "pcTdE",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Y3Rgei",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "D81em",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Your bedroom is an exam hall",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "s9VlAw",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "VtgGn",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Room scans put a university inside a student’s home. A US federal court called that an unreasonable search.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yJhnz",
+                          "name": "Ethics Row 2",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Sjhnw",
+                              "name": "Card 3",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "TvEDT",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Y3erq",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "PHkLr",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "eJTY0",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Punished for moving",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "CO5Js",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "X0D8I",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Normal means a still, neutral body. Movement reads as suspicion, and so does the accommodation.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fNbrG",
+                              "name": "Card 4",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "G7pLt",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "XgaqE",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "LKoDv",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "B7UM7v",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Biometrics that get leaked",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "rU9AD",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "X0y1h",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "They take face geometry, eye movement, keystrokes. You can reset a password, not your face.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QYODk",
+                          "name": "Ethics Row 3",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "znD7j",
+                              "name": "Card 5",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Qg6nH",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "o08lW8",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "VFdRa",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "bxCay",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Flagged, with no appeal",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "aBc1o",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "zbIqy",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "The system produces suspicion, not proof. A human signs it off seeing only the flag. Nobody is told.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "o7LRvP",
+                              "name": "Card 6",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ye0pP",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "MwibG",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "OsgWz",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "XpoDl",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Consent you cannot refuse",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xu4F1",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "D0H6tA",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Saying no means failing the exam or losing the job. The evidence is the vendor’s property.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "Q5tGq",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 16
+                  "id": "aZVja",
+                  "name": "V Rule",
+                  "width": 1,
+                  "height": "fill_container",
+                  "fill": "$p-ink"
                 },
                 {
                   "type": "frame",
-                  "id": "ThAKF",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
+                  "id": "XbuaH",
+                  "name": "Col 03",
+                  "width": 505,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    30
+                  ],
                   "children": [
                     {
                       "type": "frame",
-                      "id": "yUx84",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
+                      "id": "F1klYn",
+                      "name": "Head Row",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "T1PDKe",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
+                          "type": "text",
+                          "id": "R0ybr",
+                          "name": "Num",
+                          "fill": "$p-red",
+                          "content": "03",
+                          "lineHeight": 1,
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 30,
+                          "fontWeight": "bold",
+                          "letterSpacing": -1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "QM5nZ",
+                          "name": "Title",
+                          "fill": "$p-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Current responses",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 30,
+                          "fontWeight": "bold",
+                          "letterSpacing": -0.9
                         }
                       ]
                     },
                     {
-                      "type": "text",
-                      "id": "NqPoY",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
+                      "type": "frame",
+                      "id": "tZFpU",
+                      "name": "Space",
                       "width": "fill_container",
-                      "content": "Privacy: US court ruled an exam room scan unconstitutional (Ogletree, 2022)",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "bkLjc",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 14
-                },
-                {
-                  "type": "frame",
-                  "id": "sc0FW",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
+                      "height": 8
+                    },
                     {
                       "type": "frame",
-                      "id": "R0q4le",
-                      "name": "Marker",
+                      "id": "bC1pA",
+                      "name": "Response Cards",
+                      "width": "fill_container",
                       "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
+                      "gap": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "RnCRj",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "e1e4Y",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Bias: face detection repeatedly failed a student with dark skin (VU Amsterdam)",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Uimfq",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 14
-                },
-                {
-                  "type": "frame",
-                  "id": "vCOwt",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "PjZg1",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
+                          "id": "hXidw",
+                          "name": "Response Row 1",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "MAyXR",
+                              "name": "Response 1",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xlVwp",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "U3fGb",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "CEvY3",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "ppaGu",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "The EU AI Act names it",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SFg57",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "P16Zr",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "The AI Act rates proctoring high risk and bans emotion recognition. The deadline slipped sixteen months.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j573gn",
+                              "name": "Response 2",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "F6ljmC",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "jJd4W",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "N1GkoI",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "q0Oenh",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "A regulator fined a university",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Qvu0I",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KYQXm",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Italy fined Bocconi University 200,000 euro for Respondus, and banned biometric processing.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
                         {
                           "type": "frame",
-                          "id": "C4GkH",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
+                          "id": "p8EaV",
+                          "name": "Response Row 2",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "g7hJk",
+                              "name": "Response 3",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xsDGd",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "WDt6R",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "Xw3u8",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "o4wFI",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "The UK audited, politely",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "R29jD",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "a01LzI",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "ICO audit: some tools let recruiters filter by protected characteristics, others guessed ethnicity.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "erqQW",
+                              "name": "Response 4",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "I0WEJm",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "k06lbB",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "aLg4s",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "zcyYU",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Institutions walked away",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "X7iiVs",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "D5p72",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Campaigns worked. Illinois dropped Proctorio over accessibility, Colorado Boulder rejected it campuswide.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wKSio",
+                          "name": "Response Row 3",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EunGK",
+                              "name": "Response 5",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "DGwyX",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "L6cEos",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "qTZtP",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "tZ6So",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Vendors marked their own work",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Kxwti",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "j2ltD",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Vendors improved detection and added human review. HackerRank reports a plagiarism model at 93% accuracy.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XhxmH",
+                              "name": "Response 6",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "adKYT",
+                                  "name": "Heading Row",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "WZHH4",
+                                      "name": "Marker",
+                                      "layout": "vertical",
+                                      "padding": [
+                                        6,
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "uBOZl",
+                                          "name": "Square",
+                                          "width": 5,
+                                          "height": 5,
+                                          "fill": "$p-red"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Lie4v",
+                                      "name": "Heading",
+                                      "fill": "$p-ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Employers went back in person",
+                                      "lineHeight": 1.2,
+                                      "fontFamily": "Space Grotesk",
+                                      "fontSize": 13.5,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": -0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "kQc49",
+                                  "name": "Space",
+                                  "width": "fill_container",
+                                  "height": 2
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "noGji",
+                                  "name": "Body",
+                                  "fill": "$p-ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Facing AI-assisted cheating, major firms brought interviews back in. Others now let candidates use AI.",
+                                  "lineHeight": 1.28,
+                                  "fontFamily": "IBM Plex Sans",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "Xudlh",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Consent: refusing means failing the exam or losing the job",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1138,420 +2886,483 @@
             },
             {
               "type": "frame",
-              "id": "aZVja",
-              "name": "V Rule",
-              "width": 1,
-              "height": "fill_container",
-              "fill": "$p-ink"
+              "id": "vd2pT",
+              "name": "Space",
+              "width": "fill_container",
+              "height": 20
             },
             {
               "type": "frame",
-              "id": "XbuaH",
-              "name": "Col 03",
+              "id": "SWnck",
+              "name": "Gap Slot",
               "width": "fill_container",
-              "height": "fill_container",
+              "height": 30,
+              "stroke": "$p-red",
+              "strokeWidth": 1,
               "layout": "vertical",
               "padding": [
                 0,
-                30
+                16
               ],
+              "justifyContent": "center",
               "children": [
                 {
-                  "type": "frame",
-                  "id": "F1klYn",
-                  "name": "Head Row",
+                  "type": "text",
+                  "id": "bYGcb",
+                  "name": "Gap Line",
+                  "fill": "$p-red",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "gap": 12,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "R0ybr",
-                      "name": "Num",
-                      "fill": "$p-red",
-                      "content": "03",
-                      "lineHeight": 1,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 40,
-                      "fontWeight": "bold",
-                      "letterSpacing": -1.5
-                    },
-                    {
-                      "type": "text",
-                      "id": "QM5nZ",
-                      "name": "Title",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Current responses",
-                      "lineHeight": 1.05,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 24,
-                      "fontWeight": "bold",
-                      "letterSpacing": -0.9
-                    }
-                  ]
+                  "content": "No regulator. No appeal. No notice.",
+                  "lineHeight": 1.3,
+                  "textAlign": "center",
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 12,
+                  "fontWeight": "medium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KboV8",
+          "name": "Space",
+          "width": "fill_container",
+          "height": 14
+        },
+        {
+          "type": "frame",
+          "id": "csQbX",
+          "name": "Section 04",
+          "width": "fill_container",
+          "gap": 22,
+          "children": [
+            {
+              "type": "frame",
+              "id": "lbMGx",
+              "name": "Title Col",
+              "width": 118,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VuN5l",
+                  "name": "Num",
+                  "fill": "$p-red",
+                  "content": "04",
+                  "lineHeight": 1,
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 28,
+                  "fontWeight": "bold",
+                  "letterSpacing": -1.5
                 },
                 {
-                  "type": "frame",
-                  "id": "tZFpU",
-                  "name": "Space",
+                  "type": "text",
+                  "id": "ZNLRM",
+                  "name": "Title",
+                  "fill": "$p-ink",
+                  "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "height": 16
-                },
-                {
-                  "type": "frame",
-                  "id": "XDkrW",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "oOJKc",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "Xbgix",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "A3QUFs",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "EU AI Act: exam proctoring and hiring AI are “high-risk”",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "AOHCh",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 14
-                },
-                {
-                  "type": "frame",
-                  "id": "uxrq7",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "lrEgc",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "SEVqy",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "CoWMk",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "UK ICO audited AI recruitment tools (2024)",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "Gn5ic",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 14
-                },
-                {
-                  "type": "frame",
-                  "id": "yJwOH",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Q4tHDp",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "dfZnB",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "r66TOW",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Vendors publish their own bias audits — not independent",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
+                  "content": "What next?",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 30,
+                  "fontWeight": "bold",
+                  "letterSpacing": -0.8
                 }
               ]
             },
             {
               "type": "frame",
-              "id": "XGFLK",
-              "name": "V Rule",
-              "width": 1,
-              "height": "fill_container",
-              "fill": "$p-ink"
+              "id": "hcvJS",
+              "name": "Arms Col",
+              "width": 452,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nVoEq",
+                  "name": "Label",
+                  "fill": "$p-red",
+                  "content": "THE ARMS RACE",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 11,
+                  "fontWeight": "bold",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "bemkd",
+                  "name": "Space",
+                  "width": "fill_container",
+                  "height": 6
+                },
+                {
+                  "type": "frame",
+                  "id": "f1wecl",
+                  "name": "Cycle",
+                  "width": "fill_container",
+                  "height": 84,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "re30p",
+                      "x": 76,
+                      "y": 0,
+                      "name": "Box MORE SURVEILLANCE",
+                      "width": 300,
+                      "height": 34,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 1.2,
+                      "gap": 9,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Ng1Wv",
+                          "name": "Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "eye",
+                          "library": "lucide",
+                          "fill": "$p-ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tUSEP",
+                          "name": "Text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "l2xdvo",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "MORE SURVEILLANCE",
+                              "lineHeight": 1.15,
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "KaBQe",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "proctoring, keystroke & gaze tracking",
+                              "lineHeight": 1.2,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 8.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v7tJ9I",
+                      "x": 76,
+                      "y": 50,
+                      "name": "Box BETTER HIDING",
+                      "width": 300,
+                      "height": 34,
+                      "stroke": "$p-ink",
+                      "strokeWidth": 1.2,
+                      "gap": 9,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "b5fa0",
+                          "name": "Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "eye-off",
+                          "library": "lucide",
+                          "fill": "$p-ink"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fwKYl",
+                          "name": "Text",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LDjYw",
+                              "name": "Label",
+                              "fill": "$p-ink",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "BETTER HIDING",
+                              "lineHeight": 1.15,
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 11,
+                              "fontWeight": "bold",
+                              "letterSpacing": 0.4
+                            },
+                            {
+                              "type": "text",
+                              "id": "D5HbB2",
+                              "name": "Sub",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Interview Coder: \"undetectable\"",
+                              "lineHeight": 1.2,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 8.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "S8D3kl",
+                      "x": 376,
+                      "y": 17,
+                      "name": "Arrow Down",
+                      "geometry": "M0 0c56 0 56 50 0 50",
+                      "viewBox": [
+                        0,
+                        0,
+                        56,
+                        50
+                      ],
+                      "width": 56,
+                      "height": 50,
+                      "stroke": "$p-red",
+                      "strokeWidth": 1.6
+                    },
+                    {
+                      "type": "path",
+                      "id": "sD5Px",
+                      "x": 376,
+                      "y": 62,
+                      "name": "Head Down",
+                      "geometry": "M0 5l9-5 0 10z",
+                      "viewBox": [
+                        0,
+                        0,
+                        9,
+                        10
+                      ],
+                      "fill": "$p-red",
+                      "width": 9,
+                      "height": 10
+                    },
+                    {
+                      "type": "path",
+                      "id": "iP9TX",
+                      "x": 20,
+                      "y": 17,
+                      "name": "Arrow Up",
+                      "geometry": "M56 50c-56 0-56-50 0-50",
+                      "viewBox": [
+                        0,
+                        0,
+                        56,
+                        50
+                      ],
+                      "width": 56,
+                      "height": 50,
+                      "stroke": "$p-red",
+                      "strokeWidth": 1.6
+                    },
+                    {
+                      "type": "path",
+                      "id": "isOR0",
+                      "x": 67,
+                      "y": 12,
+                      "name": "Head Up",
+                      "geometry": "M9 5l-9-5 0 10z",
+                      "viewBox": [
+                        0,
+                        0,
+                        9,
+                        10
+                      ],
+                      "fill": "$p-red",
+                      "width": 9,
+                      "height": 10
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Sjbg2",
+                  "name": "Space",
+                  "width": "fill_container",
+                  "height": 4
+                },
+                {
+                  "type": "text",
+                  "id": "bJgP3",
+                  "name": "Caption",
+                  "fill": "$p-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "More watching hasn't meant less cheating: it feeds the tools built to beat it.",
+                  "lineHeight": 1.3,
+                  "fontFamily": "IBM Plex Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
             },
             {
               "type": "frame",
-              "id": "csQbX",
-              "name": "Col 04",
+              "id": "LrI5N",
+              "name": "Exits Col",
               "width": "fill_container",
-              "height": "fill_container",
               "layout": "vertical",
-              "padding": [
-                0,
-                30
-              ],
               "children": [
                 {
                   "type": "frame",
-                  "id": "lbMGx",
-                  "name": "Head Row",
+                  "id": "t23jGa",
+                  "name": "Label Row",
                   "width": "fill_container",
-                  "gap": 12,
+                  "gap": 5,
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "icon",
+                      "id": "aSnEu",
+                      "name": "Arrow",
+                      "width": 12,
+                      "height": 12,
+                      "icon": "corner-down-right",
+                      "library": "lucide",
+                      "fill": "$p-red"
+                    },
+                    {
                       "type": "text",
-                      "id": "VuN5l",
-                      "name": "Num",
+                      "id": "ii7ci",
+                      "name": "Label",
                       "fill": "$p-red",
-                      "content": "04",
-                      "lineHeight": 1,
+                      "content": "THE EXITS",
                       "fontFamily": "Space Grotesk",
-                      "fontSize": 40,
+                      "fontSize": 11,
                       "fontWeight": "bold",
-                      "letterSpacing": -1.5
-                    },
-                    {
-                      "type": "text",
-                      "id": "ZNLRM",
-                      "name": "Title",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "What next?",
-                      "lineHeight": 1.05,
-                      "fontFamily": "Space Grotesk",
-                      "fontSize": 30,
-                      "fontWeight": "bold",
-                      "letterSpacing": -0.8
+                      "letterSpacing": 2
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "okPR0",
+                  "id": "Tr9Qq",
                   "name": "Space",
                   "width": "fill_container",
-                  "height": 16
+                  "height": 8
                 },
                 {
                   "type": "frame",
-                  "id": "EPMzk",
-                  "name": "Bullet",
+                  "id": "bfhMo",
+                  "name": "Exit Audit & appeal",
                   "width": "fill_container",
+                  "stroke": "$p-ink",
+                  "strokeWidth": 1.2,
                   "gap": 10,
+                  "padding": [
+                    7,
+                    10
+                  ],
                   "children": [
                     {
-                      "type": "frame",
-                      "id": "GFJIl",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "E46va",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
+                      "type": "text",
+                      "id": "e84Tx",
+                      "name": "Head",
+                      "fill": "$p-ink",
+                      "textGrowth": "fixed-width",
+                      "width": 118,
+                      "content": "Audit & appeal",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12.5,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.2
                     },
                     {
                       "type": "text",
-                      "id": "tVmQo",
-                      "name": "Bullet Text",
+                      "id": "Nd0dl",
+                      "name": "Body",
                       "fill": "$p-ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Cheating tools like Interview Coder claim to be invisible",
-                      "lineHeight": 1.45,
+                      "content": "Independent audits of the tools, and a candidate's right to see and challenge a flag.",
+                      "lineHeight": 1.35,
                       "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
+                      "fontSize": 10,
                       "fontWeight": "normal"
                     }
                   ]
                 },
                 {
                   "type": "frame",
-                  "id": "U78FI",
+                  "id": "YIGof",
                   "name": "Space",
                   "width": "fill_container",
-                  "height": 14
+                  "height": 10
                 },
                 {
                   "type": "frame",
-                  "id": "O02Ux",
-                  "name": "Bullet",
+                  "id": "nM8BV",
+                  "name": "Exit Fix the test, not the watching",
                   "width": "fill_container",
+                  "stroke": "$p-ink",
+                  "strokeWidth": 1.2,
                   "gap": 10,
+                  "padding": [
+                    7,
+                    10
+                  ],
                   "children": [
                     {
-                      "type": "frame",
-                      "id": "oMIVQ",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "H8Ew1X",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
+                      "type": "text",
+                      "id": "LB8lG",
+                      "name": "Head",
+                      "fill": "$p-ink",
+                      "textGrowth": "fixed-width",
+                      "width": 118,
+                      "content": "Fix the test, not the watching",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 12.5,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.2
                     },
                     {
                       "type": "text",
-                      "id": "ZIy6M",
-                      "name": "Bullet Text",
+                      "id": "Jc8NT",
+                      "name": "Body",
                       "fill": "$p-ink",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
-                      "content": "Independent audits and a right to appeal",
-                      "lineHeight": 1.45,
+                      "content": "Assessments that are hard to game by design, so surveillance isn't the only defence.",
+                      "lineHeight": 1.35,
                       "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "i0hHaG",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 14
-                },
-                {
-                  "type": "frame",
-                  "id": "yJtXE",
-                  "name": "Bullet",
-                  "width": "fill_container",
-                  "gap": 10,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "ooT51",
-                      "name": "Marker",
-                      "layout": "vertical",
-                      "padding": [
-                        9,
-                        0,
-                        0,
-                        0
-                      ],
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "N0Asm",
-                          "name": "Square",
-                          "width": 8,
-                          "height": 8,
-                          "fill": "$p-red"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "azMN2",
-                      "name": "Bullet Text",
-                      "fill": "$p-ink",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Better tests instead of more surveillance?",
-                      "lineHeight": 1.45,
-                      "fontFamily": "IBM Plex Sans",
-                      "fontSize": 18,
+                      "fontSize": 10,
                       "fontWeight": "normal"
                     }
                   ]
@@ -1572,50 +3383,7 @@
           "id": "DfX19",
           "name": "Bottom Band",
           "width": "fill_container",
-          "gap": 44,
           "children": [
-            {
-              "type": "frame",
-              "id": "RLLCe",
-              "name": "Matrix Column",
-              "width": 260,
-              "layout": "vertical",
-              "children": [
-                {
-                  "type": "rectangle",
-                  "id": "PEQch",
-                  "name": "matrix",
-                  "fill": {
-                    "type": "image",
-                    "enabled": true,
-                    "url": "images/Unknown",
-                    "mode": "fill"
-                  },
-                  "width": 192,
-                  "height": 192
-                },
-                {
-                  "type": "frame",
-                  "id": "lD6be",
-                  "name": "Space",
-                  "width": "fill_container",
-                  "height": 10
-                },
-                {
-                  "type": "text",
-                  "id": "C3Mzoa",
-                  "name": "Matrix Caption",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
-                  "width": "fill_container",
-                  "content": "Lowering the threshold catches more cheating — and accuses more honest students.",
-                  "lineHeight": 1.4,
-                  "fontFamily": "IBM Plex Sans",
-                  "fontSize": 13,
-                  "fontWeight": "normal"
-                }
-              ]
-            },
             {
               "type": "frame",
               "id": "WvhdY",
@@ -1639,42 +3407,58 @@
                   "id": "nXa8z",
                   "name": "Space",
                   "width": "fill_container",
-                  "height": 10
+                  "height": 8
                 },
                 {
-                  "type": "text",
-                  "id": "k7FWj4",
-                  "name": "Lead",
-                  "fill": "$p-ink",
-                  "textGrowth": "fixed-width",
+                  "type": "frame",
+                  "id": "a5nSZo",
+                  "name": "Lead Row",
                   "width": "fill_container",
-                  "content": "So should we use it?",
-                  "lineHeight": 1.15,
-                  "fontFamily": "Space Grotesk",
-                  "fontSize": 26,
-                  "fontWeight": "bold",
-                  "letterSpacing": -0.8
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k7FWj4",
+                      "name": "Lead",
+                      "fill": "$p-ink",
+                      "content": "So should we use it?",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 24,
+                      "fontWeight": "bold",
+                      "letterSpacing": -0.8
+                    },
+                    {
+                      "type": "icon",
+                      "id": "ZNiXj",
+                      "name": "Scale",
+                      "width": 26,
+                      "height": 26,
+                      "icon": "scale",
+                      "library": "lucide",
+                      "fill": "$p-ink"
+                    }
+                  ]
                 },
                 {
                   "type": "frame",
                   "id": "t4DnK",
                   "name": "Space",
                   "width": "fill_container",
-                  "height": 18
+                  "height": 10
                 },
                 {
                   "type": "frame",
                   "id": "DIAVl",
                   "name": "Debate Row",
                   "width": "fill_container",
-                  "height": 164,
                   "children": [
                     {
                       "type": "frame",
                       "id": "i3z2o",
                       "name": "Side Integrity",
                       "width": "fill_container",
-                      "height": "fill_container",
                       "layout": "vertical",
                       "padding": [
                         0,
@@ -1709,7 +3493,7 @@
                               "fill": "$p-ink",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": " — it protects fair testing",
+                              "content": ": it protects fair testing",
                               "lineHeight": 1.2,
                               "fontFamily": "Space Grotesk",
                               "fontSize": 20,
@@ -1732,11 +3516,83 @@
                           "fill": "$p-ink",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "Without checks, students and candidates who cheat beat honest ones. Remote testing gave millions access to exams and jobs — it only works if results can be trusted.",
-                          "lineHeight": 1.45,
+                          "content": "Cheats beat honest candidates when no one checks. Remote testing opened exams and jobs to millions: it only works if results can be trusted.",
+                          "lineHeight": 1.35,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 18,
+                          "fontSize": 13.5,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WYaPO",
+                          "name": "Space",
+                          "width": "fill_container",
+                          "height": 5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nXsIF",
+                          "name": "Chip Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "yao9d",
+                              "name": "Chip",
+                              "width": 24,
+                              "height": 24,
+                              "stroke": "$p-ink",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "tWrn5",
+                                  "x": 12,
+                                  "y": 0,
+                                  "name": "Cell",
+                                  "width": 12,
+                                  "height": 12,
+                                  "fill": "$p-ink"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SGISA",
+                                  "x": 12,
+                                  "y": 0,
+                                  "name": "V Div",
+                                  "width": 1,
+                                  "height": 24,
+                                  "fill": "$p-ink"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iewzi",
+                                  "x": 0,
+                                  "y": 12,
+                                  "name": "H Div",
+                                  "width": 24,
+                                  "height": 1,
+                                  "fill": "$p-ink"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "BfaHG",
+                              "name": "Chip Label",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "worries about the cheats it MISSES",
+                              "lineHeight": 1.25,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -1745,7 +3601,7 @@
                       "id": "xcouD",
                       "name": "V Rule",
                       "width": 1,
-                      "height": "fill_container",
+                      "height": 97,
                       "fill": "$p-ink"
                     },
                     {
@@ -1753,7 +3609,6 @@
                       "id": "LdjSV",
                       "name": "Side Surveillance",
                       "width": "fill_container",
-                      "height": "fill_container",
                       "layout": "vertical",
                       "padding": [
                         0,
@@ -1788,7 +3643,7 @@
                               "fill": "$p-ink",
                               "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "content": " — it fails at both ends",
+                              "content": ": it fails at both ends",
                               "lineHeight": 1.2,
                               "fontFamily": "Space Grotesk",
                               "fontSize": 20,
@@ -1811,11 +3666,83 @@
                           "fill": "$p-ink",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "It flags honest people, discriminates by skin tone, and still misses the tools built to beat it. More surveillance has not meant less cheating.",
-                          "lineHeight": 1.45,
+                          "content": "It accuses the honest, discriminates by skin tone, and still misses the tools built to beat it. Watching harder hasn't worked.",
+                          "lineHeight": 1.35,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 18,
+                          "fontSize": 13.5,
                           "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jqT2v",
+                          "name": "Space",
+                          "width": "fill_container",
+                          "height": 5
+                        },
+                        {
+                          "type": "frame",
+                          "id": "i43BsA",
+                          "name": "Chip Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "M7a8V",
+                              "name": "Chip",
+                              "width": 24,
+                              "height": 24,
+                              "stroke": "$p-ink",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fUAyQ",
+                                  "x": 0,
+                                  "y": 12,
+                                  "name": "Cell",
+                                  "width": 12,
+                                  "height": 12,
+                                  "fill": "$p-red"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "USMjk",
+                                  "x": 12,
+                                  "y": 0,
+                                  "name": "V Div",
+                                  "width": 1,
+                                  "height": 24,
+                                  "fill": "$p-ink"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UCFVD",
+                                  "x": 0,
+                                  "y": 12,
+                                  "name": "H Div",
+                                  "width": 24,
+                                  "height": 1,
+                                  "fill": "$p-ink"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q34n2",
+                              "name": "Chip Label",
+                              "fill": "$p-grey",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "worries about the honest it FLAGS",
+                              "lineHeight": 1.25,
+                              "fontFamily": "IBM Plex Sans",
+                              "fontSize": 9.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -1826,7 +3753,7 @@
                   "id": "ho9Mg",
                   "name": "Space",
                   "width": "fill_container",
-                  "height": 14
+                  "height": 8
                 },
                 {
                   "type": "text",
@@ -1835,7 +3762,7 @@
                   "fill": "$p-ink",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "Our group is split on this — come and argue with us.",
+                  "content": "Our group is split. Come and argue with us.",
                   "lineHeight": 1.4,
                   "fontFamily": "IBM Plex Sans",
                   "fontSize": 15,
@@ -1851,7 +3778,7 @@
           "id": "pvgTW",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
+          "height": 6
         },
         {
           "type": "frame",
@@ -1866,7 +3793,7 @@
           "id": "ysfvB",
           "name": "Space",
           "width": "fill_container",
-          "height": 8
+          "height": 6
         },
         {
           "type": "frame",
@@ -1916,10 +3843,10 @@
                           "fill": "#4B5563",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "[1] Ogletree v. Cleveland State University (2022) — NPR, 25 Aug 2022.",
-                          "lineHeight": 1.4,
+                          "content": "[1] Ogletree v. Cleveland State University (2022). NPR, 25 Aug 2022.",
+                          "lineHeight": 1.3,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 10,
+                          "fontSize": 9,
                           "fontWeight": "normal"
                         },
                         {
@@ -1929,10 +3856,10 @@
                           "fill": "#4B5563",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "[2] Netherlands Institute for Human Rights — Pocornie v. VU Amsterdam (2022–23).",
-                          "lineHeight": 1.4,
+                          "content": "[2] Netherlands Institute for Human Rights: Pocornie v. VU Amsterdam (2022–23).",
+                          "lineHeight": 1.3,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 10,
+                          "fontSize": 9,
                           "fontWeight": "normal"
                         }
                       ]
@@ -1953,9 +3880,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "[3] ICO (2024) AI tools in recruitment: audit outcomes report.",
-                          "lineHeight": 1.4,
+                          "lineHeight": 1.3,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 10,
+                          "fontSize": 9,
                           "fontWeight": "normal"
                         },
                         {
@@ -1966,9 +3893,9 @@
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
                           "content": "[4] EU AI Act, Annex III 3(d) and 4(a).",
-                          "lineHeight": 1.4,
+                          "lineHeight": 1.3,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 10,
+                          "fontSize": 9,
                           "fontWeight": "normal"
                         },
                         {
@@ -1978,10 +3905,10 @@
                           "fill": "#4B5563",
                           "textGrowth": "fixed-width",
                           "width": "fill_container",
-                          "content": "[5] HackerRank — Proctor Mode documentation.",
-                          "lineHeight": 1.4,
+                          "content": "[5] HackerRank: Proctor Mode documentation.",
+                          "lineHeight": 1.3,
                           "fontFamily": "IBM Plex Sans",
-                          "fontSize": 10,
+                          "fontSize": 9,
                           "fontWeight": "normal"
                         }
                       ]
@@ -2266,5 +4193,6 @@
       "type": "color",
       "value": "#E0301E"
     }
-  }
+  },
+  "fileToken": "ff22bbe8-23f0-4889-9711-fb6021ede588"
 }
